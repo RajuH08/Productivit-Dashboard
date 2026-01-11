@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./apple-touch-icon.png" >
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taskeify</title>
+  </head>
+  <body>
+    <main>
+      <section class="add-task-container">
+        <div class="add-task">
+          
+          <header>
+            <div class="header1">
+              <h2>22 °c</h2>
+              <h4>Light Rain</h4>
+            <h3 class="humi">Humidity - 52%</h3>
+            <h3 class="preci">Precipitation - 0%</h3>
+            <h3 class="wind">Wind - 11.52 KpH</h3>
+            </div>
+
+            <div class="header2">
+              <h4>12 - Jan - 2026</h4>
+              <h1>Sunday, 6:00 pm</h1>
+              <h2>bangalore</h2>
+               <h5> Mostly cloudy</h5>
+            </div>
+
+          </header>
+
+          <div class="entire-task">
+            <div class="task-container elem-div" id="0">
+              <img
+                src="./0cb259abd6bc1800deb0b32e70a096cc.jpg"
+                alt=""
+                class="class2"
+              />
+              <h2 class="elem-div-h2">To-Do List</h2>
+            </div>
+            <div class="daily-container elem-div" id="1">
+              <img
+                src="./1943a367e49954512e26e56b76b43743.jpg"
+                alt=""
+                class="class3"
+              />
+              <h2 class="elem-div-h2">Daily Planner</h2>
+            </div>
+            <div class="motiv-container elem-div" id="2">
+              <img
+                src="./2fab322604944086a784a40aa8928c82.jpg"
+                alt=""
+                class="class4"
+              />
+              <h2 class="elem-div-h2">Motivation</h2>
+            </div>
+            <div class="pomodoro-container elem-div" id="3">
+              <img
+                src="./3ac33a30c33381f282cd5e2489142d42.jpg"
+                alt=""
+                class="class5"
+              />
+              <h2 class="elem-div-h2">Pomodoro timer</h2>
+            </div>
+            <div class="achivements-container elem-div" id="4">
+              <img
+                src="./d298803d9aa199350fd1fb07a59401e9.jpg"
+                alt=""
+                class="class6"
+              />
+              <h2 class="elem-div-h2">Daily Goals</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="full-elems Task-List-fullpage">
+        <div class="full-elems-container">
+          <button class="back" id="0">close</button>
+          <h1>Personalised Task List</h1>
+
+          <div class="todo-container">
+            <div class="addTask">
+              <form>
+                <h3>Add Task</h3>
+                <input
+                  id="taskInput"
+                  type="text"
+                  placeholder="Enter Your Task Here......!"
+                  id="0"
+                />
+                <textarea
+                  name="text"
+                  placeholder="Enter Details"
+                  id="0"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+                <div class="mark-imp">
+                  <input
+                    type="checkbox"
+                    class="mark-imp-int"
+                    name="checkbox"
+                    id="check"
+                  />
+                  <label for="check">Mark As Important</label>
+                </div>
+
+                <button>Submit.!</button>
+              </form>
+            </div>
+            <div class="allTask"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="full-elems Daily-Planner-fullpage">
+        <div class="full-elems-container">
+          <button class="back" id="1">close</button>
+          <h1>Plan Your Day with Productivity</h1>
+
+          <div class="day-planner">
+            <div class="day-planner-time">
+              <p>6.00</p>
+              <input type="text" placeholder="..." />
+            </div>
+
+            <div class="day-planner-time">
+              <p>6.00</p>
+              <input type="text" placeholder="..." />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="full-elems Motivator-fullpage">
+        <div class="full-elems-container">
+          <button class="back" id="2">close</button>
+          <h1>Motivator</h1>
+
+          <div class="random-motiv">
+            <div class="motiv">
+              <div class="motiv-1">
+                <h2>Quotes of ALL</h2>
+              </div>
+              <div class="motiv-2">
+                <h2>Quotes everything</h2>
+              </div>
+              <div class="motiv-3">
+                <h2>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Omnis, accusantium?
+                </h2>
+              </div>
+              <div class="author">
+                <h2>jenn jevry</h2>
+              </div>
+            </div>
+            <button class="motiv-btn">Random</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="full-elems Pomodoro-Timer-fullpage">
+        <div class="full-elems-container">
+          <button class="back" id="3">close</button>
+          <h1>Pomodoro Timer</h1>
+
+          <!-- <aside class="work-session">work-session</aside> -->
+
+          <h4 class="session">Studying</h4>
+          <div class="pomo-timer">
+            <h1>25:00</h1>
+            <button class="start-timer pomo">Start</button>
+            <button class="pause-timer pomo">Pause</button>
+            <button class="reset-timer pomo">Reset</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="full-elems Daily-Goals-fullpage">
+        <div class="full-elems-container">
+          <button class="back" id="4">close</button>
+          <h1>Daily Goals</h1>
+        </div>
+      </section>
+
+      <!-- <div class="theme">
+        <h4>Change Theme</h4>
+      </div> -->
+      <script src="taskeify.js"></script>
+    </main>
+  </body>
+</html>
